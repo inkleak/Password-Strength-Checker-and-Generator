@@ -7,6 +7,8 @@ Space " ", #, £, =, -, ;, :, <, >, all bracket types, /, \, `.
 
 The password also must not exceed 15 characters. The length of the password will be a parameter that can be modified for a password generation, but must not exceed 15 characters.
 
+# Password Criteria 
+
 The strength of a password will be dependent on which characters are present within the sample. There are no consideration into if conventional words are coincidently placed within. For standard alphabet letters, standard english alphabet letters (d,e,f,g, etc) count as 1 point. Numbers count as 2, while "special characters" such as %,!,?,$,^,*,@ count for 5 letters. 
 
 For a generation, generation is completely random, however a password with a score less than a value I haven't decided yet will not be approved and a new one must be generated which is above a threshold criteria.
